@@ -230,6 +230,8 @@ AND e.grade<(SELECT MAX(e.grade)
 FROM enrollments e
 JOIN courses c ON e.course_id=c.course_id
 WHERE c.course_name='Data structures');
+hi pavani 
+
 
 
 
